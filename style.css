@@ -1,0 +1,103 @@
+.navbar{
+    background-color: #D32F2F !important;
+
+} 
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.disclaimer{
+    background-color: #D32F2F;
+}
+.information{
+    color: white;
+    padding-top: 10px;
+}
+.fa-truck,.fa-handshake-o,.fa-thumbs-up{
+    font-size: 50PX !important;
+    margin-right: 10px;
+    color:#D32F2F ;
+    margin-left: 10px;
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card1,.card2,.card3{
+    display:flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px grey;
+    margin-left: 0px;
+    font-weight: bold !important;
+    justify-content: center;
+    align-items: center;
+    color:#D32F2F ;
+    margin-top: 10px;
+}
+
+.buy,.MENU{
+    text-align: center;
+    background-color:#D32F2F ;
+    color: white;
+    margin-top: 30px;
+    text-shadow: white 2px 3px 4px ;
+    margin-bottom: 5PX;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.newarrival{
+    margin-top: 30px;
+}
+.card{
+    width: 150px !important;
+    height: 200px !important;
+    margin-left: 10PX;
+    
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color:#D32F2F  ;
+}
+.imgages2{
+    display: inline;
+    
+    justify-content: space-around;
+}
+.footer{
+    width: 100%;
+    background-color:#D32F2F ;
+    height: 70px;
+    margin-top: 20px;
+}
+.footer>div{
+    text-align: center;
+    color: white;
+    
+}
+.btn{
+    justify-content: space-around;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .card1,.card2,.card3 {
+      width: 100%;
+    }
+    .image1{
+        width: 100%;
+    }
+    .newarrival{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+  }
+ 
